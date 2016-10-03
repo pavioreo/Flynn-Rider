@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1AC0D11DA22D0800A6576C /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC0D01DA22D0800A6576C /* CollectionViewCell.m */; };
 		CE4EE55F1DA221E0001F8FB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EE55E1DA221E0001F8FB3 /* main.m */; };
 		CE4EE5621DA221E1001F8FB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EE5611DA221E1001F8FB3 /* AppDelegate.m */; };
 		CE4EE5651DA221E1001F8FB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EE5641DA221E1001F8FB3 /* ViewController.m */; };
 		CE4EE5681DA221E1001F8FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4EE5661DA221E1001F8FB3 /* Main.storyboard */; };
 		CE4EE56A1DA221E1001F8FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4EE5691DA221E1001F8FB3 /* Assets.xcassets */; };
 		CE4EE56D1DA221E1001F8FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4EE56B1DA221E1001F8FB3 /* LaunchScreen.storyboard */; };
+		CE4EE57D1DA2267D001F8FB3 /* Mixer_Truck.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EE5761DA2267D001F8FB3 /* Mixer_Truck.png */; };
+		CE4EE57E1DA2267D001F8FB3 /* painting.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EE5771DA2267D001F8FB3 /* painting.png */; };
+		CE4EE57F1DA2267D001F8FB3 /* Smart-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EE5781DA2267D001F8FB3 /* Smart-icon.png */; };
+		CE4EE5801DA2267D001F8FB3 /* cement_construction.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EE5791DA2267D001F8FB3 /* cement_construction.png */; };
+		CE4EE5811DA2267D001F8FB3 /* bricks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE4EE57A1DA2267D001F8FB3 /* bricks.jpg */; };
+		CE4EE5821DA2267D001F8FB3 /* Spa.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EE57B1DA2267D001F8FB3 /* Spa.png */; };
+		CE4EE5831DA2267D001F8FB3 /* Wellness.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EE57C1DA2267D001F8FB3 /* Wellness.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1AC0CF1DA22D0800A6576C /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		CE1AC0D01DA22D0800A6576C /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		CE4EE55A1DA221DF001F8FB3 /* Flynn-Rider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flynn-Rider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4EE55E1DA221E0001F8FB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE4EE5601DA221E1001F8FB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,13 @@
 		CE4EE5691DA221E1001F8FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4EE56C1DA221E1001F8FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4EE56E1DA221E1001F8FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4EE5761DA2267D001F8FB3 /* Mixer_Truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mixer_Truck.png; path = ICON/Mixer_Truck.png; sourceTree = "<group>"; };
+		CE4EE5771DA2267D001F8FB3 /* painting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = painting.png; path = ICON/painting.png; sourceTree = "<group>"; };
+		CE4EE5781DA2267D001F8FB3 /* Smart-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Smart-icon.png"; path = "ICON/Smart-icon.png"; sourceTree = "<group>"; };
+		CE4EE5791DA2267D001F8FB3 /* cement_construction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cement_construction.png; path = ICON/cement_construction.png; sourceTree = "<group>"; };
+		CE4EE57A1DA2267D001F8FB3 /* bricks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bricks.jpg; path = ICON/bricks.jpg; sourceTree = "<group>"; };
+		CE4EE57B1DA2267D001F8FB3 /* Spa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Spa.png; path = ICON/Spa.png; sourceTree = "<group>"; };
+		CE4EE57C1DA2267D001F8FB3 /* Wellness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wellness.png; path = ICON/Wellness.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +75,14 @@
 		CE4EE55C1DA221E0001F8FB3 /* Flynn-Rider */ = {
 			isa = PBXGroup;
 			children = (
+				CE4EE5661DA221E1001F8FB3 /* Main.storyboard */,
+				CE4EE5741DA22643001F8FB3 /* Resource */,
 				CE4EE5601DA221E1001F8FB3 /* AppDelegate.h */,
 				CE4EE5611DA221E1001F8FB3 /* AppDelegate.m */,
 				CE4EE5631DA221E1001F8FB3 /* ViewController.h */,
 				CE4EE5641DA221E1001F8FB3 /* ViewController.m */,
-				CE4EE5661DA221E1001F8FB3 /* Main.storyboard */,
+				CE1AC0CF1DA22D0800A6576C /* CollectionViewCell.h */,
+				CE1AC0D01DA22D0800A6576C /* CollectionViewCell.m */,
 				CE4EE5691DA221E1001F8FB3 /* Assets.xcassets */,
 				CE4EE56B1DA221E1001F8FB3 /* LaunchScreen.storyboard */,
 				CE4EE56E1DA221E1001F8FB3 /* Info.plist */,
@@ -77,6 +97,28 @@
 				CE4EE55E1DA221E0001F8FB3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE4EE5741DA22643001F8FB3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CE4EE5751DA22666001F8FB3 /* Icons */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		CE4EE5751DA22666001F8FB3 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				CE4EE5761DA2267D001F8FB3 /* Mixer_Truck.png */,
+				CE4EE5771DA2267D001F8FB3 /* painting.png */,
+				CE4EE5781DA2267D001F8FB3 /* Smart-icon.png */,
+				CE4EE5791DA2267D001F8FB3 /* cement_construction.png */,
+				CE4EE57A1DA2267D001F8FB3 /* bricks.jpg */,
+				CE4EE57B1DA2267D001F8FB3 /* Spa.png */,
+				CE4EE57C1DA2267D001F8FB3 /* Wellness.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +178,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4EE5821DA2267D001F8FB3 /* Spa.png in Resources */,
 				CE4EE56D1DA221E1001F8FB3 /* LaunchScreen.storyboard in Resources */,
+				CE4EE5811DA2267D001F8FB3 /* bricks.jpg in Resources */,
 				CE4EE56A1DA221E1001F8FB3 /* Assets.xcassets in Resources */,
+				CE4EE57F1DA2267D001F8FB3 /* Smart-icon.png in Resources */,
+				CE4EE5801DA2267D001F8FB3 /* cement_construction.png in Resources */,
+				CE4EE57E1DA2267D001F8FB3 /* painting.png in Resources */,
+				CE4EE57D1DA2267D001F8FB3 /* Mixer_Truck.png in Resources */,
+				CE4EE5831DA2267D001F8FB3 /* Wellness.png in Resources */,
 				CE4EE5681DA221E1001F8FB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +200,7 @@
 			files = (
 				CE4EE5651DA221E1001F8FB3 /* ViewController.m in Sources */,
 				CE4EE5621DA221E1001F8FB3 /* AppDelegate.m in Sources */,
+				CE1AC0D11DA22D0800A6576C /* CollectionViewCell.m in Sources */,
 				CE4EE55F1DA221E0001F8FB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +352,7 @@
 				CE4EE5731DA221E1001F8FB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
