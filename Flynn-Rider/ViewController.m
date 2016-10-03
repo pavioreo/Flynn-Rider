@@ -17,10 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"Sample";
+    
     // Initialize recipe image array
     ItemPhotoArray = [NSArray arrayWithObjects:@"Mixer_Truck.png", @"painting.png", @"Smart-icon.png", @"cement_construction.png", @"bricks.jpg", @"Spa.png", @"Wellness.png", nil];
-    itemArray = [NSArray arrayWithObjects:@"Truk",@"Painting",@"3",@"4",@"5",@"6",@"7", nil];
-    
+    itemArray = [NSArray arrayWithObjects:@"Truk",@"Painting",@"Setup",@"Workers",@"Bricks",@"Intirior",@"plembers", nil];
 }
 
 
@@ -35,9 +37,9 @@
     CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
     
     cell.CollectionImageView= (UIImageView *)[cell viewWithTag:100];
-     cell.CollectionImageView.image = [UIImage imageNamed:[ItemPhotoArray objectAtIndex:indexPath.row]];
+    cell.CollectionImageView.image = [UIImage imageNamed:[ItemPhotoArray objectAtIndex:indexPath.row]];
     
-    cell.Collectionlabel = [itemArray objectAtIndex:indexPath.row];
+    cell.Collectionlabel.text = [itemArray objectAtIndex:indexPath.row];
     return cell;
 }
 
